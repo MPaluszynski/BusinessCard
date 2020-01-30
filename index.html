@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maciej Paluszyński - Portfolio</title>
+    <meta name="description" content="Frontend Developer Wannabe ze znajomością HTML5, CSS3, JavaScript oraz VueJS. Obejrzyjcie moje portfolio!">
+    <meta name="keywords" content="programista, portfolio, front-end, frontend, front, end, HTML, HTML5, CSS, CSS3, JavaScript, JS, Vue, VueJS, Vue.js" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <button class="btn" :style='buttonStyle1' @click='openModal1'>Kim jestem?</button>
+        <div class="modal" :style='modalStyle1' @click='hideModal1'>
+            <div class="modal__window"@click.stop>
+                <h2 class="window__header"> O mnie: </h2>
+                <p class="window__content"> Lorem Ipsum </p>
+            </div>
+        </div>
+        <button class="btn" :style='buttonStyle2' @click='openModal2'>Curriculum Vitae</button>
+        <div class="modal" :style='modalStyle2' @click='hideModal2'>
+            <div class="modal__window"@click.stop>
+                <h2 class="window__header"> CV: </h2>
+                <p class="window__content"> Lorem Ipsum </p>
+            </div>
+        </div>
+        <button class="btn" :style='buttonStyle3' @click='openModal3'>Moje projekty</button>
+        <div class="modal" :style='modalStyle3' @click='hideModal3'>
+            <div class="modal__window"@click.stop>
+                <h2 class="window__header"> Portfolio: </h2>
+                <p class="window__content"> Lorem Ipsum </p>
+            </div>
+        </div>
+        <button class="btn" :style='buttonStyle4' @click='openModal4'>Kontakt</button>
+        <div class="modal" :style='modalStyle4' @click='hideModal4'>
+            <div class="modal__window"@click.stop>
+                <h2 class="window__header"> Kontakt: </h2>
+                <p class="window__content"> Lorem Ipsum </p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
