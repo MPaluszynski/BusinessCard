@@ -8,7 +8,7 @@ new Vue ({
         buttonStyle3: 'display:block;',
         modalStyle3: 'display:none;',
         buttonStyle4: 'display:block;',
-        modalStyle4: 'display:none;'
+        modalStyle4: 'display:none;',
     },
     methods: {
         openModal1: function() {

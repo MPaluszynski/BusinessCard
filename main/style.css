@@ -25,11 +25,20 @@ body{
     font-size: 1.5em;
     cursor: pointer;
     margin:0.5px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.15);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.15); 
 }
+.btn:hover{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.25);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.25);    
+}
+
 #buttons{
     display:flex;
     position: absolute;
-    bottom: 42.5%;
+    bottom: 12.5%;
 }
 
 .exitClick{
@@ -43,6 +52,85 @@ body{
     color: black;
     cursor: pointer;
 }
+.facebook{
+    margin:5px;
+    width:75px;
+    height: 75px;
+    background-color: #3b5998;
+    border-radius: 15px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+    cursor:pointer;
+}
+
+.facebook:hover{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);    
+}
+.gitHub{
+    margin:5px;
+    width:75px;
+    height: 75px;
+    background-color: #211F1F;
+    border-radius: 15px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+    cursor:pointer;
+}
+
+.gitHub:hover{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);    
+}
+
+.gplus{
+    margin:5px;
+    width:75px;
+    height: 75px;
+    background-color: #dd4b39;
+    border-radius: 15px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+    cursor:pointer;
+}
+
+.gplus:hover{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);      
+}
+
+.linkedIn{
+    margin:5px;
+    width:75px;
+    height: 75px;
+    background-color: #006192;
+    border-radius: 15px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+    cursor:pointer;
+}
+.linkedIn:hover{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);    
+}
+
+#links{
+    position: absolute;
+    left:0;
+    height: 325px;
+    width: 75px;
+    background-color: black;
+    background: transparent;
+    cursor:pointer;
+}
 
 .modal{
     width:100%;
@@ -55,9 +143,13 @@ body{
 .modal__window{
     background: #f0f0f0;
     position: relative;
+    height: 750px;
     width:500px;
     border-radius: 16px;
     padding: 20px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .window__header{

@@ -2,15 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Maciej Paluszyński - Portfolio</title>
+    <title>Maciej Paluszyński - Wizytówka</title>
     <meta name="description" content="Frontend Developer Wannabe ze znajomością HTML5, CSS3, Jave, JavaScript oraz VueJS. Obejrzyjcie moje portfolio!">
     <meta name="keywords" content="programista, portfolio, front-end, frontend, front, end, HTML, HTML5, CSS, CSS3, JavaScript, JS, Vue, VueJS, Vue.js" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main/style.css">
+    <link rel="stylesheet" href="main/style.css" type="text/css">
+    <link rel="stylesheet" href="css/fontello.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    
 </head>
 <body>
-    <div id="app">
+    <div id="app" :style='backgroundStyle'>
         <div id="buttons">
             <button class="btn" :style='buttonStyle1' @click='openModal1'>Kim jestem?</button>
             <div class="modal" :style='modalStyle1' >
@@ -25,7 +27,6 @@
                 <div class="modal__window">
                     <button class="exitClick" @click='hideModal'>x</button>
                     <h2 class="window__header">CV:</h2>
-                    
                     <p class="window__content"> Lorem Ipsum </p>
                 </div>
             </div>
@@ -45,6 +46,12 @@
                     <p class="window__content"> Lorem Ipsum </p>
                 </div>
             </div>
+        </div>
+        <div id="links">
+            <div class="linkedIn"><i class="icon-linkedin"></i></div>
+            <div class="gplus"><i class="icon-gplus"></i></div>
+            <div class="gitHub"><i class="icon-github-circled-1"></i> </div>
+            <div class="facebook"><i class="icon-facebook"></i></div>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
