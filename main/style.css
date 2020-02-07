@@ -67,11 +67,13 @@ body{
     cursor: pointer;
 }
 .facebook{
+    text-align: left;
     margin:5px;
     width:75px;
     height: 75px;
     background-color: #3b5998;
     border-radius: 15px;
+    border:none;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
@@ -98,6 +100,7 @@ body{
     height: 75px;
     background-color: #211F1F;
     border-radius: 15px;
+    border:none;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
@@ -122,6 +125,7 @@ body{
     height: 75px;
     background-color: #dd4b39;
     border-radius: 15px;
+    border:none;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
@@ -148,6 +152,7 @@ body{
     height: 75px;
     background-color: #006192;
     border-radius: 15px;
+    border:none;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
@@ -189,8 +194,8 @@ body{
 .modal__window{
     background: #f0f0f0;
     position: relative;
-    height: auto;
-    width:500px;
+    height: 500px;
+    width:400px;
     border-radius: 16px;
     padding: 20px;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
