@@ -6,6 +6,8 @@ html, body{
 
 body{
     margin:0;
+    background-image: url("../img/spaceTravel.jpg");
+    background-size: cover;
 }
 
 #app{
@@ -13,8 +15,6 @@ body{
     align-items:center;
     justify-content:center;
     height:100%;
-    background-image: url("../img/spaceTravel.jpg");
-    background-size: cover;
 }
 
 .btn{
@@ -26,14 +26,14 @@ body{
     font-size: 1.5em;
     cursor: pointer;
     margin:1px;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.25);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.25);
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
 }
 .btn:hover{
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0.50);
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0.50);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,1);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,1);
     color:#fff;
     border:2px solid #fff;
     border-radius: 10px;

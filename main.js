@@ -12,7 +12,8 @@ new Vue ({
         lnStyle: 'display:block;',
         gpStyle: 'display:block;',
         ghStyle: 'display:block;',
-        fbStyle: 'display:block;'
+        fbStyle: 'display:block;',
+        backgroundStyle: 'background: rgba(0,0,0,0);'
     },
     methods: {
         openModal1: function() {
@@ -27,7 +28,8 @@ new Vue ({
             this.lnStyle = 'display:none;',
             this.gpStyle = 'display:none;',
             this.ghStyle = 'display:none;',
-            this.fbStyle = 'display:none;'
+            this.fbStyle = 'display:none;',
+            this.backgroundStyle = 'background: rgba(0,0,0, 0.45);'
         },
         openModal2: function() {
             this.buttonStyle1 = 'display:none;',
@@ -41,7 +43,8 @@ new Vue ({
             this.lnStyle = 'display:none;',
             this.gpStyle = 'display:none;',
             this.ghStyle = 'display:none;',
-            this.fbStyle = 'display:none;'
+            this.fbStyle = 'display:none;',
+            this.backgroundStyle = 'background: rgba(0,0,0, 0.45);'
         },
         openModal3: function() {
             this.buttonStyle1 = 'display:none;',
@@ -55,7 +58,8 @@ new Vue ({
             this.lnStyle = 'display:none;',
             this.gpStyle = 'display:none;',
             this.ghStyle = 'display:none;',
-            this.fbStyle = 'display:none;'
+            this.fbStyle = 'display:none;',
+            this.backgroundStyle = 'background: rgba(0,0,0, 0.45);'
         },
         openModal4: function() {
             this.buttonStyle1 = 'display:none;',
@@ -69,7 +73,8 @@ new Vue ({
             this.lnStyle = 'display:none;',
             this.gpStyle = 'display:none;',
             this.ghStyle = 'display:none;',
-            this.fbStyle = 'display:none;'
+            this.fbStyle = 'display:none;',
+            this.backgroundStyle = 'background: rgba(0,0,0, 0.45);'
         },
         hideModal: function() {
             this.modalStyle1 = 'display:none;',
@@ -84,6 +89,7 @@ new Vue ({
             this.gpStyle = 'display:block;',
             this.ghStyle = 'display:block;',
             this.fbStyle = 'display:block;'
+            this.backgroundStyle = 'background: rgba(0,0,0,0);'
         }
     }
 });
