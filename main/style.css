@@ -14,17 +14,18 @@ body{
     justify-content:center;
     height:100%;
     background-image: url("../img/spaceTravel.jpg");
+    background-size: cover;
 }
 
 .btn{
     background: transparent;
-    color:#fff;
-    border:2px solid #fff;
+    color:#eee;
+    border:2px solid #eee;
     padding: 8px 17px;
     border-radius: 10px;
     font-size: 1.5em;
     cursor: pointer;
-    margin:0.5px;
+    margin:1px;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.25);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.25);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.25);
@@ -33,14 +34,25 @@ body{
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0.50);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0.50);
-    color:#F0F0F0;
-    border:2px solid #F0F0F0;
+    color:#fff;
+    border:2px solid #fff;
+    border-radius: 10px;
+}
+
+.btn:active{
+    color:#ddd;
+    border:2px solid #ddd;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);
 }
 
 #buttons{
     display:flex;
     position: absolute;
-    bottom: 12.5%;
+    bottom: 11%;
+    background:transparent;
 }
 
 .exitClick{
@@ -67,10 +79,19 @@ body{
 }
 
 .facebook:hover{
+    background-color: #4c6999;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);    
 }
+
+.facebook:active{
+    background-color: #2a4787;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);    
+}
+
 .gitHub{
     margin:5px;
     width:75px;
@@ -84,11 +105,17 @@ body{
 }
 
 .gitHub:hover{
+    background-color: #322F2F;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);    
 }
-
+.gitHub:active{
+    background-color: #100E0E;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);      
+}
 .gplus{
     margin:5px;
     width:75px;
@@ -102,9 +129,17 @@ body{
 }
 
 .gplus:hover{
+    background-color: #ee5c49;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);      
+}
+
+.gplus:active{
+    background-color: #cc3c28;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05); 
 }
 
 .linkedIn{
@@ -118,10 +153,19 @@ body{
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
     cursor:pointer;
 }
+
 .linkedIn:hover{
+    background-color: #117293;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);    
+}
+
+.linkedIn:active{
+    background-color: #005081;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);   
 }
 
 #links{
@@ -145,7 +189,7 @@ body{
 .modal__window{
     background: #f0f0f0;
     position: relative;
-    height: 750px;
+    height: auto;
     width:500px;
     border-radius: 16px;
     padding: 20px;

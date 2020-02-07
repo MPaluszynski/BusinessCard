@@ -9,6 +9,10 @@ new Vue ({
         modalStyle3: 'display:none;',
         buttonStyle4: 'display:block;',
         modalStyle4: 'display:none;',
+        lnStyle: 'display:block;',
+        gpStyle: 'display:block;',
+        ghStyle: 'display:block;',
+        fbStyle: 'display:block;'
     },
     methods: {
         openModal1: function() {
@@ -19,7 +23,11 @@ new Vue ({
             this.buttonStyle3 = 'display:none;',
             this.modalStyle3 = 'display:none;',
             this.buttonStyle4 = 'display:none;',
-            this.modalStyle4 = 'display:none;'
+            this.modalStyle4 = 'display:none;',
+            this.lnStyle = 'display:none;',
+            this.gpStyle = 'display:none;',
+            this.ghStyle = 'display:none;',
+            this.fbStyle = 'display:none;'
         },
         openModal2: function() {
             this.buttonStyle1 = 'display:none;',
@@ -29,7 +37,11 @@ new Vue ({
             this.buttonStyle3 = 'display:none;',
             this.modalStyle3 = 'display:none;',
             this.buttonStyle4 = 'display:none;',
-            this.modalStyle4 = 'display:none;'
+            this.modalStyle4 = 'display:none;',
+            this.lnStyle = 'display:none;',
+            this.gpStyle = 'display:none;',
+            this.ghStyle = 'display:none;',
+            this.fbStyle = 'display:none;'
         },
         openModal3: function() {
             this.buttonStyle1 = 'display:none;',
@@ -39,7 +51,11 @@ new Vue ({
             this.buttonStyle3 = 'display:none;',
             this.modalStyle3 = 'display:flex;',
             this.buttonStyle4 = 'display:none;',
-            this.modalStyle4 = 'display:none;'
+            this.modalStyle4 = 'display:none;',
+            this.lnStyle = 'display:none;',
+            this.gpStyle = 'display:none;',
+            this.ghStyle = 'display:none;',
+            this.fbStyle = 'display:none;'
         },
         openModal4: function() {
             this.buttonStyle1 = 'display:none;',
@@ -50,6 +66,10 @@ new Vue ({
             this.modalStyle3 = 'display:none;',
             this.buttonStyle4 = 'display:none;',
             this.modalStyle4 = 'display:flex;'
+            this.lnStyle = 'display:none;',
+            this.gpStyle = 'display:none;',
+            this.ghStyle = 'display:none;',
+            this.fbStyle = 'display:none;'
         },
         hideModal: function() {
             this.modalStyle1 = 'display:none;',
@@ -60,6 +80,10 @@ new Vue ({
             this.buttonStyle3 = 'display:block;',
             this.modalStyle4 = 'display:none;',
             this.buttonStyle4 = 'display:block;'
+            this.lnStyle = 'display:block;',
+            this.gpStyle = 'display:block;',
+            this.ghStyle = 'display:block;',
+            this.fbStyle = 'display:block;'
         }
     }
 });
