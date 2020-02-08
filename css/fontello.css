@@ -54,11 +54,11 @@
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
- 
-.icon-twitter:before { content: '\e800'; font-size: 45px; color: white; position:absolute;left:10%; top:80.5%;} /* '' */
-.icon-facebook:before { content: '\e801'; font-size: 55px; color: white; position:absolute; left:5%; top:54.5%;}
+
+.icon-linkedin:before { content: '\f31a'; font-size: 50px; color: white; position:absolute; left:7.5%; top:4.5%;}
+.icon-github-circled:before { content: '\f09b'; font-size: 65px; color: white; position:absolute; left:-3%; top:22.25%;}
+.icon-facebook:before { content: '\e801'; font-size: 55px; color: white; position:absolute; left:5%; top:42.5%;}
+.icon-twitter:before { content: '\e800'; font-size: 45px; color: white; position:absolute;left:8.5%; top:63.5%;} /* '' */
+.icon-instagram:before { content: '\f16d'; font-size: 50px; color: white; position:absolute;left:9.5%; top:81.5%;} /* '' */
 .icon-gplus:before { content: '\e802'; } /* '' */
-.icon-github-circled:before { content: '\f09b'; font-size: 65px; color: white; position:absolute; left:-3.5%; top:28.0%;}
-.icon-instagram:before { content: '\f16d'; font-size: 50px; color: white; position:absolute;left:10%; bottom:-19.5%;} /* '' */
 .icon-youtube:before { content: '\f313'; } /* '' */
-.icon-linkedin:before { content: '\f31a'; font-size: 50px; color: white; position:absolute; left:8.5%; top:5.5%;}
