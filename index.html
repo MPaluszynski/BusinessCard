@@ -13,45 +13,109 @@
 </head>
 <body>
     <div id="app" :style='backgroundStyle'>
-        <div id="buttons">
-            <button class="btn" :style='buttonStyle1' @click='openModal1'>Kim jestem?</button>
-            <div class="modal" :style='modalStyle1' >
-                <div class="modal__window">
+        <div id="modals">
+            <div :style='modalStyle1' >
+                <div class="modals__window">
                     <button class="exitClick" @click='hideModal'>x</button>
                     <h2 class="window__header"> O mnie: </h2>
-                    <p class="window__content"> Lorem Ipsum </p>
+                    <br>
+                    <div class="window__content">Były inżynier budowlany, starający się odnaleźć w świecie IT.<br>
+                        W poprzednim zawodzie, we wczesnym etapie kariery, dostałem szansę pracy na kontraktach w Afryce, w której spędziłem łącznie 15 miesięcy.<br>
+                        Po powrocie do kraju nie udało mi się już odnaleźć w "rodzimych" realiach branży budowlanej i, podobnie jak wielu zawiedzionych kolegów oraz koleżanek po fachu, 
+                        zdecydowałem się przekwalifikować.<br>
+                        Obecnie studiuję zaocznie informatykę oraz zdobywam swoje pierwsze szlify w nowym fachu.
+                    </div>
                 </div>
             </div>
-            <button class="btn" :style='buttonStyle2' @click='openModal2'>Curriculum Vitae</button>
-            <div class="modal" :style='modalStyle2'>
-                <div class="modal__window">
+            <div :style='modalStyle2'>
+                <div class="modals__window">
                     <button class="exitClick" @click='hideModal'>x</button>
                     <h2 class="window__header">CV:</h2>
-                    <p class="window__content"> Lorem Ipsum </p>
+                    <div class="window__content"> 
+                        <ol>
+                            <li>
+                                <p class="small">Wykształcenie:</p>
+                                <ul>
+                                    <li>
+                                        <h5 class="small">Informatyka - studia inżynierskie (2019-obecnie)</h5>
+                                        <p class="info">Politechnika Gdańska Wydział Elektroniki, Telekomunikacji i</p>
+                                        <p class="info">Informatyki</p>
+                                    </li>
+                                    <li>
+                                        <h5 class="small">Inżynieria Lądowa - studia magisterskie (2018-2019)</h5>
+                                        <p class="info">Politechnika Gdańska Wydział Inżynierii Lądowej i Środowiska</p>
+                                    </li>
+                                    <li>
+                                        <h5 class="small">Inżynieria Lądowa - studia inżynierskie (2010-2015)</h5>
+                                        <p class="info">Politechnika Gdańska Wydział Inżynierii Lądowej i Środowiska</p>
+                                        <br>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p class="small">Doświadczenie:</p>
+                                <ul>
+                                    <li>
+                                        <h5 class="small">Junior IBM BPM Developer</h5>
+                                        <p class="info">IBPM S.A. (09.2019 - obecnie)</p> 
+                                    </li>
+                                    <li>
+                                        <h5 class="small">Kursant Java od podstaw</h5>
+                                        <p class="info">Fundacja CODE:ME (05.2019 - 07.2019)</p> 
+                                    </li>
+                                    <li>
+                                        <h5 class="small">Młodszy Specjalista ds. gruntu zbrojonego</h5>
+                                        <p class="info">Maccaferri Sp. z.o.o. (06.2018 - 02.2019)</p> 
+                                    </li>
+                                    <li>
+                                        <h5 class="small">Inżynier budowy</h5>
+                                        <p class="info">Mostostal Zabrze S.A. (08.2017 - 02.2018)</p>  
+                                    </li>
+                                    <li>
+                                        <h5 class="small">Inżynier budowy</h5>
+                                        <p class="info">Poltec Investimentos (03.2016 - 05.2017)</p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </div>
                 </div>
             </div>
-            <button class="btn" :style='buttonStyle3' @click='openModal3'>Moje projekty</button>
-            <div class="modal" :style='modalStyle3'>
-                <div class="modal__window">
+            <div :style='modalStyle3'>
+                <div class="modals__window">
                     <button class="exitClick" @click='hideModal'>x</button>
                     <h2 class="window__header"> Portfolio: </h2>
-                    <p class="window__content"> Lorem Ipsum </p>
+                    <div class="window__content"> Strona w budowie :-)! </div>
                 </div>
             </div>
-            <button class="btn" :style='buttonStyle4' @click='openModal4'>Kontakt</button>
-            <div class="modal" :style='modalStyle4'>
-                <div class="modal__window">
+            <div :style='modalStyle4'>
+                <div class="modals__window">
                     <button class="exitClick" @click='hideModal'>x</button>
                     <h2 class="window__header"> Kontakt: </h2>
-                    <p class="window__content"> Lorem Ipsum </p>
+                    <div class="window__content">
+                        <br>
+                        <p class="info" style="font-size: medium; text-align: center;">Serdecznie zapraszam do kontaktu osoby zainteresowane</p>
+                        <p class="info" style="font-size: medium; text-align: center;">współpracą!</p>
+                        <br>
+                        <p class="info" style="font-size: medium; text-align: center;"><b>Adres e-mail:</b> macpalus@gmail.com</p>
+                        <p class="info" style="font-size: medium; text-align: center;"><b>Telefon:</b> 601-079-073</p>
+                        <br/>
+                    </div>
                 </div>
             </div>
         </div>
+        <div id="buttons">
+            <button class="btn" :style='buttonStyle1' @click='openModal1'>Kim jestem?</button>
+            <button class="btn" :style='buttonStyle2' @click='openModal2'>Curriculum Vitae</button>
+            <button class="btn" :style='buttonStyle3' @click='openModal3'>Moje projekty</button>
+            <button class="btn" :style='buttonStyle4' @click='openModal4'>Kontakt</button>
+        </div>
         <div id="links">
-            <div class="linkedIn" :style='lnStyle'><i class="icon-linkedin"></i></div>
-            <div class="gplus" :style='gpStyle'><i class="icon-gplus"></i></div>
-            <div class="gitHub" :style='ghStyle'><i class="icon-github-circled-1"></i> </div>
-            <div class="facebook" :style='fbStyle'><i class="icon-facebook"></i></div>
+            <a class="linkedIn" :style='lnStyle' target="_blank" href="https://www.linkedin.com/in/maciej-paluszyński-527771190"><i class="icon-linkedin"></i></a>
+            <a target="_blank" href="https://github.com/MPaluszynski" class="gitHub" :style='ghStyle'><i class="icon-github-circled"></i></a>
+            <a target="_blank" href="https://www.facebook.com/maciek.paluszynski" class="facebook" :style='fbStyle'><i class="icon-facebook"></i></a>
+            <a target="_blank" href="https://twitter.com/MaciekPaluszys1" class="twitter" :style='twitterStyle'><i class="icon-twitter"></i></a>
+            <a target="_blank" href="https://www.instagram.com/maciekpaluszynski/" class="instagram" :style='instaStyle'><i class="icon-instagram"></i></a>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>

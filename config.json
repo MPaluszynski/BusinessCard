@@ -13,12 +13,6 @@
       "src": "brandico"
     },
     {
-      "uid": "2d3ce9463ed5525c6faa01f84c957843",
-      "css": "youtube",
-      "code": 62227,
-      "src": "websymbols"
-    },
-    {
       "uid": "6f7586c6f99798c3c1de6123d1f6cfa9",
       "css": "facebook",
       "code": 59393,
@@ -34,6 +28,24 @@
       "uid": "0f6a2573a7b6df911ed199bb63717e27",
       "css": "github-circled-1",
       "code": 61595,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "2d3ce9463ed5525c6faa01f84c957843",
+      "css": "youtube",
+      "code": 62227,
+      "src": "websymbols"
+    },
+    {
+      "uid": "b1ec8e90c2c85cf0035849980a3789b3",
+      "css": "twitter",
+      "code": 59392,
+      "src": "zocial"
+    },
+    {
+      "uid": "4c1ef492f1d2c39a2250ae457cee2a6e",
+      "css": "instagram",
+      "code": 61805,
       "src": "fontawesome"
     }
   ]

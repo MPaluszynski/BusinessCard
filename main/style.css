@@ -67,7 +67,6 @@ body{
     cursor: pointer;
 }
 .facebook{
-    text-align: left;
     margin:5px;
     width:75px;
     height: 75px;
@@ -119,11 +118,17 @@ body{
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);      
 }
-.gplus{
+
+h5.small{
+    line-height:0.15px;
+    font-style: italic;    
+}
+
+.instagram{
     margin:5px;
     width:75px;
     height: 75px;
-    background-color: #dd4b39;
+    background: radial-gradient(circle at 25% 110%,#fdf497 0,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285aeb 90%),radial-gradient(circle at 25% 110%,#b9a800 0,#938500 5%,#b10f00 45%,#8c0061 60%,#002ca9 90%);
     border-radius: 15px;
     border:none;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
@@ -132,18 +137,17 @@ body{
     cursor:pointer;
 }
 
-.gplus:hover{
-    background-color: #ee5c49;
+.instagram:hover{
+    background: radial-gradient(circle at 25% 110%,#fef598 0,#fef598 5%,#fe6959 45%,#e7359f 60%,#396bfc 90%),radial-gradient(circle at 25% 110%,#c9b911 0,#949611 5%,#c21f11 45%,#9d1172 60%,#113db9 90%);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);      
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);    
 }
-
-.gplus:active{
-    background-color: #cc3c28;
+.instagram:active{
+    background: radial-gradient(circle at 25% 110%,#ece386 0,#ece386 5%,#ec4838 45%,#c5138e 60%,#184ada 90%),radial-gradient(circle at 25% 110%,#a8a700 0,#827400 5%,#a00e00 45%,#7b0050 60%,#001ba8 90%);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05); 
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);      
 }
 
 .linkedIn{
@@ -183,7 +187,7 @@ body{
     cursor:pointer;
 }
 
-.modal{
+#modals{
     width:100%;
     height:100%;
     display:flex;
@@ -191,16 +195,55 @@ body{
     justify-content:center;
 }
 
-.modal__window{
-    background: #f0f0f0;
+.modals__window{
+    background: #eff0ef;
     position: relative;
     height: 500px;
-    width:400px;
+    width:500px;
     border-radius: 16px;
     padding: 20px;
+    text-align: left;
+    text-justify: inter-word;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+p.small {
+    line-height:0.5px;
+  }
+
+p.info{
+    font-size: smaller;
+    line-height:0.15px;
+    font-style: italic;    
+}
+
+.twitter{
+    margin:5px;
+    width:75px;
+    height: 75px;
+    background-color: #1da1f2;
+    border-radius: 15px;
+    border:none;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+    cursor:pointer;
+}
+
+.twitter:hover{
+    background-color: #2eb2f3;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);      
+}
+
+.twitter:active{
+    background-color: #0ca0e1;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05); 
 }
 
 .window__header{
@@ -211,4 +254,5 @@ body{
 .window__content{
     color: #333;
     line-height: 1.32;
+    font-style: italic;
 }

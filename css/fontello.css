@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'fontello';
-  src: url('../font/fontello.eot?19452269');
-  src: url('../font/fontello.eot?19452269#iefix') format('embedded-opentype'),
-       url('../font/fontello.woff2?19452269') format('woff2'),
-       url('../font/fontello.woff?19452269') format('woff'),
-       url('../font/fontello.ttf?19452269') format('truetype'),
-       url('../font/fontello.svg?19452269#fontello') format('svg');
+  src: url('../font/fontello.eot?97013358');
+  src: url('../font/fontello.eot?97013358#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?97013358') format('woff2'),
+       url('../font/fontello.woff?97013358') format('woff'),
+       url('../font/fontello.ttf?97013358') format('truetype'),
+       url('../font/fontello.svg?97013358#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fontello';
-    src: url('../font/fontello.svg?19452269#fontello') format('svg');
+    src: url('../font/fontello.svg?97013358#fontello') format('svg');
   }
 }
 */
@@ -55,8 +55,10 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.icon-facebook:before { content: '\e801'; font-size: 50px; color: white; margin-top: 15px;}
-.icon-gplus:before { content: '\e802'; font-size: 50px; color: white; margin-top: 15px;}
-.icon-github-circled-1:before { content: '\f09b'; font-size: 54px; color: white; margin-top: 11.5px;}
-.icon-youtube:before { content: '\f313'; font-size: 52.5px; color: white; margin-top: 10px;}
-.icon-linkedin:before { content: '\f31a'; font-size: 52.5px; color: white; margin-top: 10px;}
+.icon-twitter:before { content: '\e800'; font-size: 45px; color: white; position:absolute;left:10%; top:80.5%;} /* '' */
+.icon-facebook:before { content: '\e801'; font-size: 55px; color: white; position:absolute; left:5%; top:54.5%;}
+.icon-gplus:before { content: '\e802'; } /* '' */
+.icon-github-circled:before { content: '\f09b'; font-size: 65px; color: white; position:absolute; left:-3.5%; top:28.0%;}
+.icon-instagram:before { content: '\f16d'; font-size: 50px; color: white; position:absolute;left:10%; bottom:-19.5%;} /* '' */
+.icon-youtube:before { content: '\f313'; } /* '' */
+.icon-linkedin:before { content: '\f31a'; font-size: 50px; color: white; position:absolute; left:8.5%; top:5.5%;}
