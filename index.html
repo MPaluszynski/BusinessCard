@@ -105,21 +105,21 @@
             </div>
         </div>
         <div id="buttons">
-            <button class="btn" :style='buttonStyle1' @click='openModal1'>Kim jestem?</button>
-            <button class="btn" :style='buttonStyle2' @click='openModal2'>Curriculum Vitae</button>
-            <button class="btn" :style='buttonStyle3' @click='openModal3'>Moje projekty</button>
-            <button class="btn" :style='buttonStyle4' @click='openModal4'>Kontakt</button>
+            <button class="btn" :style='buttonStyle' @click='flag = 1'>Kim jestem?</button>
+            <button class="btn" :style='buttonStyle' @click='flag = 2'>Curriculum Vitae</button>
+            <button class="btn" :style='buttonStyle' @click='flag = 3'>Moje projekty</button>
+            <button class="btn" :style='buttonStyle' @click='flag = 4'>Kontakt</button>
         </div>
         <div id="links">
-            <a class="linkedIn" :style='lnStyle' target="_blank" href="https://www.linkedin.com/in/maciej-paluszyński-527771190"><i class="icon-linkedin"></i></a>
-            <a target="_blank" href="https://github.com/MPaluszynski" class="gitHub" :style='ghStyle'><i class="icon-github-circled"></i></a>
-            <a target="_blank" href="https://www.facebook.com/maciek.paluszynski" class="facebook" :style='fbStyle'><i class="icon-facebook"></i></a>
-            <a target="_blank" href="https://twitter.com/MaciekPaluszys1" class="twitter" :style='twitterStyle'><i class="icon-twitter"></i></a>
-            <a target="_blank" href="https://www.instagram.com/maciekpaluszynski/" class="instagram" :style='instaStyle'><i class="icon-instagram"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/maciej-paluszyński-527771190" class="linkedIn" :style='buttonStyle' ><span class="icon-linkedin"></span></a>
+            <a target="_blank" href="https://github.com/MPaluszynski" class="gitHub" :style='buttonStyle'><span class="icon-github-circled"></span></a>
+            <a target="_blank" href="https://www.facebook.com/maciek.paluszynski" class="facebook" :style='buttonStyle'><span class="icon-facebook"></span></a>
+            <a target="_blank" href="https://twitter.com/MaciekPaluszys1" class="twitter" :style='buttonStyle'><span class="icon-twitter"></span></a>
+            <a target="_blank" href="https://www.instagram.com/maciekpaluszynski/" class="instagram" :style='buttonStyle'><span class="icon-instagram"></span></a>
         </div>
-        <div id="copyright">
-            2020 &copy; Maciej Paluszyński - Portfolio.
-        </div>
+        <footer id="copyright">
+                2020 &copy; Maciej Paluszyński - Portfolio.
+        </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
     <script src="main.js"></script>
