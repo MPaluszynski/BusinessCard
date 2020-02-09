@@ -55,6 +55,13 @@ body{
     background:transparent;
 }
 
+#copyright{
+    position: absolute;
+    bottom: 0;
+    color: #eee;
+    font-size: small;
+}
+
 .exitClick{
     background: transparent;
     border: none;
