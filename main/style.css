@@ -205,7 +205,7 @@ h5.small{
 .modals__window{
     background: #eff0ef;
     position: relative;
-    height: 500px;
+    height: auto;
     width:500px;
     border-radius: 16px;
     padding: 20px;
