@@ -27,25 +27,29 @@ new Vue ({
                 this.modalStyle1 = 'display:flex;',
                 this.modalStyle2 = 'display:none',
                 this.modalStyle3 = 'display:none;',
-                this.modalStyle4 = 'display:none;'
+                this.modalStyle4 = 'display:none;',
+                this.flag = "0"
             }
             else if(newValue === 2){
                 this.modalStyle1 = 'display:none;',
                 this.modalStyle2 = 'display:flex;',
                 this.modalStyle3 = 'display:none;',
-                this.modalStyle4 = 'display:none;'
+                this.modalStyle4 = 'display:none;',
+                this.flag = "0"
             }
             else if(newValue === 3){
                 this.modalStyle1 = 'display:none;',
                 this.modalStyle2 = 'display:none;',
                 this.modalStyle3 = 'display:flex;',
-                this.modalStyle4 = 'display:none;'
+                this.modalStyle4 = 'display:none;',
+                this.flag = "0"
             }
             else if(newValue === 4){
                 this.modalStyle1 = 'display:none;',
                 this.modalStyle2 = 'display:none;',
                 this.modalStyle3 = 'display:none;',
-                this.modalStyle4 = 'display:flex;'
+                this.modalStyle4 = 'display:flex;',
+                this.flag = "0"
             }           
         }
     }
