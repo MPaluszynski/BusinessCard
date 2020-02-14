@@ -6,8 +6,10 @@ html, body{
 
 body{
     margin:0;
-    background-image: url("../img/spaceTravel.jpg");
-    background-size: cover;
+    background-image: url("../img/astronaut1.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    /* background-position: center center; */
 }
 
 #app{
@@ -51,7 +53,7 @@ body{
 #buttons{
     display:flex;
     position: absolute;
-    bottom: 11%;
+    bottom: 5%;
     background:transparent;
 }
 
@@ -251,6 +253,19 @@ p.info{
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05); 
+}
+
+#quote{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: auto;
+    width: auto;
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 1.5em;
+    font-style: italic;
+    font-size: larger;
 }
 
 .window__header{
