@@ -11,7 +11,6 @@ body{
     background-image: url("../img/136.jpg");
     background-size: cover; 
     background-repeat: no-repeat;
-    /* background-position: center center; */
     font-family: 'Roboto', sans-serif;
 }
 
@@ -23,20 +22,239 @@ body{
     height:100%;
 }
 
+@media (max-width: 1023px){
+    body{
+        background-position: center center;
+    }
+
+    #buttons{
+        display:flex;
+        justify-content: center;
+        position: absolute;
+        left: 50%;
+        margin-left: -20%;
+        top: 50%;
+        margin-top: 12.5%;
+        flex-direction: column;
+        transform: translateY(-87.5%);
+    }
+
+    .btn{
+        font-size: 2.25em;
+    }
+
+    #hello__1 {
+        display:none;
+    }
+    
+    #hello__2 {
+        display:none;
+    }
+
+    #links{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        bottom: 2.5%;
+        height: 85px;
+        width: auto;
+        cursor:pointer;
+    }
+
+    .plate{
+        margin:5px;
+        width:75px;
+        height: 75px;
+        border-radius: 15px;
+    }
+}
+
+@media (max-width: 450px){
+    #buttons{
+        margin-left: -28.5%;
+        margin-top: 12.5%;
+    }
+
+    .btn{
+        font-size: 1.5em;
+    }
+
+    #hello__1 {
+        display:none;
+    }
+    
+    #hello__2 {
+        display:none;
+    }
+
+    #links{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        bottom: 2.5%;
+        height: 85px;
+        width: auto;
+        cursor:pointer;
+    }
+
+    .plate{
+        margin:2.5px;
+        width:65px;
+        height: 65px;
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 1024px){
+    body{
+        background-position: 0% 0%;
+    }
+
+    #buttons{
+        display:flex;
+        position: absolute;
+        bottom: 5%;
+        transform: translateX(-10%) translateY(25%);
+    }
+
+    .btn{
+        border-radius: 10px;
+        font-size: 1.35em;
+    }
+    
+    #hello__1 {
+        font-size: 1.35em;
+        transform: rotate(-14.5deg)  translateX(5%) translateY(-5%);
+    }
+    
+    #hello__2 {
+        font-size: 1.35em;
+        transform: rotate(14.5deg) translateX(-50%) translateY(325%);  
+    }
+
+    #links{
+        position: absolute;
+        left:0;
+        height: 415px;
+        width: 85px;
+        cursor:pointer;
+    }
+
+    .plate{
+        margin:5px;
+        width:75px;
+        height: 75px;
+        border-radius: 15px;
+    }
+
+}
+
+@media (min-width: 1100px){
+    #buttons{
+        transform: translateX(-15%) translateY(30%);
+    }
+
+    .btn{
+        border-radius: 10px;
+        font-size: 1.35em;
+    }
+
+    #hello__1 {
+        font-size: 1.30em;
+        transform: rotate(-14.5deg)  translateX(5%) translateY(-12.5%);
+    }
+    
+    #hello__2 {
+        font-size: 1.30em;
+        transform: rotate(14.5deg) translateX(25%) translateY(35%);  
+    }
+
+    .plate{
+        margin:5px;
+        width:75px;
+        height: 75px;
+        border-radius: 15px;
+    }
+
+}
+
+@media (min-width: 1200px){
+    #buttons{
+        transform: translateX(-30%) translateY(30%);
+    }
+
+    .btn{
+        border-radius: 10px;
+        font-size: 1.40em;
+    }
+
+    #hello__1 {
+        font-size: 1.40em;
+        transform: rotate(-14.5deg)  translateX(-15%) translateY(-20%);
+    }
+    
+    #hello__2 {
+        font-size: 1.40em;
+        transform: rotate(14.5deg) translateX(15%) translateY(40%);  
+    }
+}
+
+@media (min-width: 1440px){
+    #buttons{
+        transform: translateX(-30%) translateY(20%);
+    }
+
+    .btn{
+        border-radius: 10px;
+        font-size: 1.45em;
+    }
+
+    #hello__1 {
+        font-size: 1.45em;
+        transform: rotate(-14.5deg)  translateX(-10%) translateY(-15%);
+    }
+    
+    #hello__2 {
+        font-size: 1.45em;
+        transform: rotate(14.5deg) translateX(5%) translateY(65%);  
+    }
+}
+
+@media (min-width: 1680px){
+    #buttons{
+        transform: translateX(-22.5%) translateY(35%);
+    }
+
+    .btn{
+        border-radius: 10px;
+        font-size: 1.7em;
+    }
+
+    #hello__1 {
+        font-size: 1.6em;
+        transform: rotate(-14.5deg)  translateX(-10%) translateY(-15%);
+    }
+    
+    #hello__2 {
+        font-size: 1.6em;
+        transform: rotate(14.5deg) translateX(5%) translateY(70%);  
+    }
+}
+
 .btn{
     background: #e6e7e9;
     color:#111;
     border:2px solid #111;
     padding: 8px 17px;
-    border-radius: 10px;
-    font-size: 1.5em;
     cursor: pointer;
     margin:1px;
+    border-radius: 10px;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
     font-family: 'Roboto', sans-serif;
 }
+
 .btn:hover{
     background: #f7f8f9;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
@@ -55,15 +273,6 @@ body{
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);
-}
-
-#buttons{
-    display:flex;
-    position: absolute;
-    bottom: 5%;
-    flex-wrap: wrap;
-    background:transparent;
-    transform: translateX(-20%) translateY(-20%);
 }
 
 #copyright{
@@ -85,11 +294,7 @@ body{
     cursor: pointer;
 }
 .facebook{
-    margin:5px;
-    width:75px;
-    height: 75px;
     background-color: #3b5998;
-    border-radius: 15px;
     border:none;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
@@ -112,11 +317,7 @@ body{
 }
 
 .gitHub{
-    margin:5px;
-    width:75px;
-    height: 75px;
     background-color: #211F1F;
-    border-radius: 15px;
     border:none;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
@@ -155,7 +356,6 @@ h5.small{
 }
 
 #hello__1 {
-    font-size: 1.5em;
     font-weight: bold;
     color: #333;
     text-align: center;
@@ -164,11 +364,9 @@ h5.small{
     height: auto;
     font-family: 'Special Elite', cursive;
     line-height: 1.2;
-    transform: rotate(-14.5deg)  translateX(-10%) translateY(-15%);
 }
 
 #hello__2 {
-    font-size: 1.5em;
     font-weight: bold;
     color: #333;
     text-align: center;
@@ -177,15 +375,10 @@ h5.small{
     height: auto;
     font-family: 'Special Elite', cursive;
     line-height: 1.2;
-    transform: rotate(14.5deg) translateX(5%) translateY(75%);  
 }
 
 .instagram{
-    margin:5px;
-    width:75px;
-    height: 75px;
     background: radial-gradient(circle at 25% 110%,#fdf497 0,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285aeb 90%),radial-gradient(circle at 25% 110%,#b9a800 0,#938500 5%,#b10f00 45%,#8c0061 60%,#002ca9 90%);
-    border-radius: 15px;
     border:none;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
@@ -207,11 +400,7 @@ h5.small{
 }
 
 .linkedIn{
-    margin:5px;
-    width:75px;
-    height: 75px;
     background-color: #006192;
-    border-radius: 15px;
     border:none;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
@@ -231,16 +420,6 @@ h5.small{
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);   
-}
-
-#links{
-    position: absolute;
-    left:0;
-    height: 415px;
-    width: 85px;
-    background-color: black;
-    background: transparent;
-    cursor:pointer;
 }
 
 #modals{
@@ -277,11 +456,7 @@ p.info{
 }
 
 .twitter{
-    margin:5px;
-    width:75px;
-    height: 75px;
     background-color: #1da1f2;
-    border-radius: 15px;
     border:none;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);

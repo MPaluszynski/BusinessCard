@@ -1,41 +1,50 @@
 @import url('https://fonts.googleapis.com/css?family=Marck+Script&display=swap');
 
-.blockquote{
-    max-width: 600px;
-    margin: 10px 30px;
-    padding: 25px;
-    color: #111;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    background: transparent;
-    width: auto;
-    height: auto;
-    box-sizing: border-box;
 
+@media(max-width: 1199px){
+    .blockquote{
+        display: none;
+    }
 }
 
-.blockquote--quoted::before{
-    content: "\201c";
-    font-size: 50px;
-    display: block;
-    margin-bottom: -30px;
-    margin-top: -30px;
-}
-
-.blockquote__text{
-    font-family: 'Marck Script', cursive;
-    font-size: 17.5px;
-    line-height: 1.0;
-    margin: 0;
-    opacity:0.5;
-}
-
-.blockquote__text--credit{
-    font-weight: bold;
-    text-align: right;
-}
-
-.blockquote__text--credit::before{
-    content: "\2014\0020";
+@media(min-width: 1200px){
+    .blockquote{
+        max-width: 600px;
+        margin: 10px 30px;
+        padding: 25px;
+        color: #111;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        background: transparent;
+        width: auto;
+        height: auto;
+        box-sizing: border-box;
+    
+    }
+    
+    .blockquote--quoted::before{
+        content: "\201c";
+        font-size: 50px;
+        display: block;
+        margin-bottom: -30px;
+        margin-top: -30px;
+    }
+    
+    .blockquote__text{
+        font-family: 'Marck Script', cursive;
+        font-size: 17.5px;
+        line-height: 1.0;
+        margin: 0;
+        opacity:0.5;
+    }
+    
+    .blockquote__text--credit{
+        font-weight: bold;
+        text-align: right;
+    }
+    
+    .blockquote__text--credit::before{
+        content: "\2014\0020";
+    }
 }
