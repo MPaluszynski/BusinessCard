@@ -7,12 +7,29 @@
     <meta name="keywords" content="programista, portfolio, front-end, frontend, front, end, HTML, HTML5, CSS, CSS3, JavaScript, JS, Vue, VueJS, Vue.js" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main/style.css" type="text/css">
-    <link rel="stylesheet" href="css/fontello.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    
+    <link rel="stylesheet" href="main/blockquote.css" type="text/css">
+    <link rel="stylesheet" href="css/fontello.css" type="text/css"> 
 </head>
 <body>
     <div id="app" :style='backgroundStyle'>
+        <div id="hello" >
+            <div id="hello__1">
+                <h3 style="margin-top: 0.25em; margin-bottom: 0.25em;">DEVELOPER</h3>
+                Tworzenie stron internetowych oraz UI,
+                <br>
+                to dla mnie pasja
+                <br>
+                Witaj na mojej stronie!
+            </div>
+            <div id="hello__2">
+                <h3 style="margin-top: 0.25em; margin-bottom: 0.25em;">&ltCODER&gt</h3>
+                Dążę do funkcjonalności i estetyki,
+                <br>
+                zachowując prostotę
+                <br>
+                Obejrzyj moje projekty!
+            </div>
+        </div>
         <div id="modals">
             <div :style='modalStyle1' >
                 <div class="modals__window">
@@ -117,6 +134,12 @@
             <a target="_blank" href="https://twitter.com/MaciekPaluszys1" class="twitter" :style='buttonStyle'><span  class="icon-twitter"></span></a>
             <a target="_blank" href="https://www.instagram.com/maciekpaluszynski/" class="instagram" :style='buttonStyle'><span class="icon-instagram"></span></a>
         </div>
+        <blockquote class="blockquote">
+            <p class="blockquote__text blockquote--quoted">
+                I would rather be ashes than dust!
+            </p>
+            <p class="blockquote__text blockquote__text--credit">Jack London</p>
+        </blockquote>
         <footer id="copyright">
                 2020 &copy; Maciej Paluszyński - Portfolio.
         </footer>

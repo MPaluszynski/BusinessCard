@@ -1,28 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Special+Elite&display=swap');
+
 html, body{
     height: 100%;
     width: 100%;
-    font-family: 'Roboto', sans-serif;
 }
 
 body{
     margin:0;
-    background-image: url("../img/astronaut1.jpg");
+    background-image: url("../img/136.jpg");
     background-size: cover; 
     background-repeat: no-repeat;
     /* background-position: center center; */
+    font-family: 'Roboto', sans-serif;
 }
 
 #app{
     display:flex;
     align-items:center;
     justify-content:center;
+    flex-wrap: wrap;
     height:100%;
 }
 
 .btn{
-    background: transparent;
-    color:#eee;
-    border:2px solid #eee;
+    background: #e6e7e9;
+    color:#111;
+    border:2px solid #111;
     padding: 8px 17px;
     border-radius: 10px;
     font-size: 1.5em;
@@ -31,19 +35,22 @@ body{
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+    font-family: 'Roboto', sans-serif;
 }
 .btn:hover{
+    background: #f7f8f9;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,1);
     box-shadow: 10px 10px 5px 0px rgba(0,0,1);
-    color:#fff;
-    border:2px solid #fff;
+    color:#222;
+    border:2px solid #222;
     border-radius: 10px;
 }
 
 .btn:active{
-    color:#ddd;
-    border:2px solid #ddd;
+    background: #d5d6d8;
+    color:#000;
+    border:2px solid #000;
     border-radius: 10px;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);
@@ -54,13 +61,15 @@ body{
     display:flex;
     position: absolute;
     bottom: 5%;
+    flex-wrap: wrap;
     background:transparent;
+    transform: translateX(-20%) translateY(-20%);
 }
 
 #copyright{
     position: absolute;
     bottom: 0;
-    color: #eee;
+    color: #111;
     font-size: small;
 }
 
@@ -131,6 +140,44 @@ body{
 h5.small{
     line-height:0.15px;
     font-style: italic;    
+}
+
+#hello{
+    position: absolute;
+    top: 5%;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+#hello__1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    padding: 5px;
+    width: auto;
+    height: auto;
+    font-family: 'Special Elite', cursive;
+    line-height: 1.2;
+    transform: rotate(-14.5deg)  translateX(-10%) translateY(-15%);
+}
+
+#hello__2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    padding: 5px;
+    width: auto;
+    height: auto;
+    font-family: 'Special Elite', cursive;
+    line-height: 1.2;
+    transform: rotate(14.5deg) translateX(5%) translateY(75%);  
 }
 
 .instagram{
@@ -208,14 +255,15 @@ h5.small{
     background: #eff0ef;
     position: relative;
     height: auto;
-    width:500px;
+    max-width:500px;
     border-radius: 16px;
     padding: 20px;
     text-align: left;
-    text-justify: inter-word;
+    text-justify: auto;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    font-family: 'Roboto', sans-serif;
 }
 
 p.small {
@@ -253,19 +301,6 @@ p.info{
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05); 
-}
-
-#quote{
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: auto;
-    width: auto;
-    color: white;
-    font-family: Georgia, serif;
-    font-size: 1.5em;
-    font-style: italic;
-    font-size: larger;
 }
 
 .window__header{
