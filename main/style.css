@@ -24,7 +24,7 @@ body{
 
 @media (max-width: 1023px){
     body{
-        background-position: center center;
+        background-position: center left;
     }
 
     #buttons{
@@ -79,24 +79,6 @@ body{
         font-size: 1.5em;
     }
 
-    #hello__1 {
-        display:none;
-    }
-    
-    #hello__2 {
-        display:none;
-    }
-
-    #links{
-        display: flex;
-        position: absolute;
-        justify-content: center;
-        bottom: 2.5%;
-        height: 85px;
-        width: auto;
-        cursor:pointer;
-    }
-
     .plate{
         margin:2.5px;
         width:65px;
@@ -124,7 +106,7 @@ body{
     
     #hello__1 {
         font-size: 1.35em;
-        transform: rotate(-14.5deg)  translateX(5%) translateY(-5%);
+        transform: rotate(-14.5deg)  translateX(-3%) translateY(-10%);
     }
     
     #hello__2 {
@@ -133,58 +115,32 @@ body{
     }
 
     #links{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
         position: absolute;
         left:0;
-        height: 415px;
-        width: 85px;
+        height: auto;
+        width: auto;
         cursor:pointer;
     }
 
     .plate{
-        margin:5px;
-        width:75px;
-        height: 75px;
+        margin:1.5px;
+        width:60px;
+        height: 60px;
         border-radius: 15px;
     }
 
 }
 
-@media (min-width: 1100px){
-    #buttons{
-        transform: translateX(-15%) translateY(30%);
-    }
-
-    .btn{
-        border-radius: 10px;
-        font-size: 1.35em;
-    }
-
-    #hello__1 {
-        font-size: 1.30em;
-        transform: rotate(-14.5deg)  translateX(5%) translateY(-12.5%);
-    }
-    
-    #hello__2 {
-        font-size: 1.30em;
-        transform: rotate(14.5deg) translateX(25%) translateY(35%);  
-    }
-
-    .plate{
-        margin:5px;
-        width:75px;
-        height: 75px;
-        border-radius: 15px;
-    }
-
-}
-
-@media (min-width: 1200px){
+@media (min-width: 1150px){
     #buttons{
         transform: translateX(-30%) translateY(30%);
     }
 
     .btn{
-        border-radius: 10px;
         font-size: 1.40em;
     }
 
@@ -205,7 +161,6 @@ body{
     }
 
     .btn{
-        border-radius: 10px;
         font-size: 1.45em;
     }
 
@@ -218,6 +173,13 @@ body{
         font-size: 1.45em;
         transform: rotate(14.5deg) translateX(5%) translateY(65%);  
     }
+
+    .plate{
+        margin:2.5px;
+        width:70px;
+        height: 70px;
+        border-radius: 17.5px;
+    }
 }
 
 @media (min-width: 1680px){
@@ -226,7 +188,6 @@ body{
     }
 
     .btn{
-        border-radius: 10px;
         font-size: 1.7em;
     }
 
