@@ -1,6 +1,6 @@
 Moja internetowa wizytówka. Projekt miał na celu pomóc mi przypomnieć sobie HTML oraz CSS, a także przećwiczyć podstawowe dyrektywy framework'a Vue.
 Można ją obejrzeć pod adresem:
-mpaluszynski.pl
+http://mpaluszynski.pl
 
 Zapraszam serdecznie
 
