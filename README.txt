@@ -1,4 +1,5 @@
-Moja internetowa wizytówka. Projekt miał na celu pomóc mi przypomnieć sobie HTML oraz CSS, a także przećwiczyć podstawowe dyrektywy framework'a Vue.
+Moje osobiste internetowe portfolio. Zależało mi aby było proste i ładne :-). Strona powstała niemal w całości przy użyciu najbardziej podstawowych narzędzi - HTML oraz CSS, z wykorzystaniem w  niewielkim tylko stopniu dyrektyw VueJS.
+
 Można ją obejrzeć pod adresem:
 http://mpaluszynski.pl
 
