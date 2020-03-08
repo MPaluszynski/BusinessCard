@@ -300,11 +300,6 @@ body{
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);      
 }
 
-h5.small{
-    line-height:0.15px;
-    font-style: italic;    
-}
-
 #hello{
     position: absolute;
     top: 5%;
@@ -407,16 +402,6 @@ h5.small{
     font-family: 'Roboto', sans-serif;
 }
 
-p.small {
-    line-height:0.5px;
-  }
-
-p.info{
-    font-size: smaller;
-    line-height:0.15px;
-    font-style: italic;    
-}
-
 .twitter{
     background-color: #1da1f2;
     border:none;
@@ -442,11 +427,12 @@ p.info{
 
 .window__header{
     margin: 0;
-    font-size: 2.1em;
+    font-size: 2.0em;
+    line-height: 0.5;
 }
 
 .window__content{
     color: #333;
-    line-height: 1.32;
-    font-style: italic;
+    line-height: 1.25;
+    text-align: left;
 }

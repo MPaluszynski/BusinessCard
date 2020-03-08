@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main/style.css" type="text/css">
     <link rel="stylesheet" href="main/blockquote.css" type="text/css">
+    <link rel="stylesheet" href="main/table.css" type="text/css">
     <link rel="stylesheet" href="css/fontello.css" type="text/css"> 
 </head>
 <body>
@@ -17,7 +18,7 @@
                 <h3 style="margin-top: 0.25em; margin-bottom: 0.25em;">DEVELOPER</h3>
                 Tworzenie stron internetowych oraz UI
                 <br>
-                to dla mnie pasja
+                to dla mnie pasja.
                 <br>
                 Witaj na mojej stronie!
             </div>
@@ -25,7 +26,7 @@
                 <h3 style="margin-top: 0.25em; margin-bottom: 0.25em;">&ltCODER&gt</h3>
                 Dążę do funkcjonalności i estetyki,
                 <br>
-                zachowując prostotę
+                zachowując prostotę.
                 <br>
                 Obejrzyj moje projekty!
             </div>
@@ -34,10 +35,13 @@
             <div :style='modalStyle1' >
                 <div class="modals__window">
                     <button class="exitClick" @click='hideModal'>&times</button>
-                    <h2 class="window__header"> O mnie: </h2>
+                    <h2 class="window__header">O mnie: </h2>
                     <br>
-                    <div class="window__content">Były inżynier budowlany, próbujący swoich sił w świecie IT.<br>
-                        W poprzednim zawodzie, na wczesnym etapie kariery, dostałem szansę pracy na kontraktach w Afryce, w której spędziłem łącznie 15 miesięcy.<br>
+                    <div class="window__content">
+                        Były inżynier budowlany próbujący swoich sił w dynamicznie rozwijającym się świecie IT.
+                        <br>
+                        W poprzednim zawodzie, na samym początku mojej kariery, spędziłem 15 miesięcy pracując na budowach w Afryce.
+                        <br>
                         Po powrocie do kraju nie udało mi się już odnaleźć w "rodzimych" realiach branży budowlanej i, podobnie jak wielu moich kolegów oraz koleżanek po fachu, 
                         zdecydowałem się przekwalifikować.<br>
                         Obecnie studiuję zaocznie informatykę oraz zdobywam swoje pierwsze szlify w nowym fachu.
@@ -47,50 +51,49 @@
             <div :style='modalStyle2'>
                 <div class="modals__window">
                     <button class="exitClick" @click='hideModal'>&times</button>
-                    <h2 class="window__header">CV:</h2>
+                    <h2 class="window__header">CV: </h2>
                     <div class="window__content"> 
                         <ol>
                             <li>
-                                <p class="small">Wykształcenie:</p>
+                                Wykształcenie:
                                 <ul>
                                     <li>
-                                        <h5 class="small">Informatyka - studia inżynierskie (2019-obecnie)</h5>
-                                        <p class="info">Politechnika Gdańska Wydział Elektroniki, Telekomunikacji i</p>
-                                        <p class="info">Informatyki</p>
+                                        <h5>Informatyka - studia inżynierskie (2019-obecnie)</h5>
+                                        <span class="info">Politechnika Gdańska Wydział Elektroniki, Telekomunikacji i Informatyki</span>
                                     </li>
                                     <li>
-                                        <h5 class="small">Inżynieria Lądowa - studia magisterskie (2018-2019)</h5>
-                                        <p class="info">Politechnika Gdańska Wydział Inżynierii Lądowej i Środowiska</p>
+                                        <h5>Inżynieria Lądowa - studia magisterskie (2018-2019)</h5>
+                                        <span class="info">Politechnika Gdańska Wydział Inżynierii Lądowej i Środowiska</span>
                                     </li>
                                     <li>
-                                        <h5 class="small">Inżynieria Lądowa - studia inżynierskie (2010-2015)</h5>
-                                        <p class="info">Politechnika Gdańska Wydział Inżynierii Lądowej i Środowiska</p>
-                                        <br>
+                                        <h5>Inżynieria Lądowa - studia inżynierskie (2010-2015)</h5>
+                                        <span class="info">Politechnika Gdańska Wydział Inżynierii Lądowej i Środowiska</span>
                                     </li>
                                 </ul>
                             </li>
+                            <br>
                             <li>
-                                <p class="small">Doświadczenie:</p>
+                                Doświadczenie:
                                 <ul>
                                     <li>
-                                        <h5 class="small">Junior IBM BPM Developer</h5>
-                                        <p class="info">IBPM S.A. (09.2019 - obecnie)</p> 
+                                        <h5>Junior IBM BPM Developer</h5>
+                                        <span class="info">IBPM S.A. (09.2019 - obecnie)</span> 
                                     </li>
                                     <li>
-                                        <h5 class="small">Kursant Java od podstaw</h5>
-                                        <p class="info">Fundacja CODE:ME (05.2019 - 07.2019)</p> 
+                                        <h5>Kursant Java od podstaw</h5>
+                                        <span class="info">Fundacja CODE:ME (05.2019 - 07.2019)</span> 
                                     </li>
                                     <li>
-                                        <h5 class="small">Młodszy Specjalista ds. gruntu zbrojonego</h5>
-                                        <p class="info">Maccaferri Sp. z.o.o. (06.2018 - 02.2019)</p> 
+                                        <h5>Młodszy Specjalista ds. gruntu zbrojonego</h5>
+                                        <span class="info">Maccaferri Sp. z.o.o. (06.2018 - 02.2019)</span> 
                                     </li>
                                     <li>
-                                        <h5 class="small">Inżynier budowy</h5>
-                                        <p class="info">Mostostal Zabrze S.A. (07.2017 - 02.2018)</p>  
+                                        <h5>Inżynier budowy</h5>
+                                        <span class="info">Mostostal Zabrze S.A. (07.2017 - 02.2018)</span>  
                                     </li>
                                     <li>
-                                        <h5 class="small">Inżynier budowy</h5>
-                                        <p class="info">Poltec Investimentos (03.2016 - 05.2017)</p>
+                                        <h5>Inżynier budowy</h5>
+                                        <span class="info">Poltec Investimentos (03.2016 - 05.2017)</span>
                                     </li>
                                 </ul>
                             </li>
@@ -101,22 +104,24 @@
             <div :style='modalStyle3'>
                 <div class="modals__window">
                     <button class="exitClick" @click='hideModal'>&times</button>
-                    <h2 class="window__header"> Portfolio: </h2>
+                    <h2 class="window__header">Portfolio: </h2>
+                    <br>
                     <div class="window__content"> Strona w budowie :-)! </div>
                 </div>
             </div>
             <div :style='modalStyle4'>
                 <div class="modals__window">
                     <button class="exitClick" @click='hideModal'>&times</button>
-                    <h2 class="window__header"> Kontakt: </h2>
-                    <div class="window__content">
+                    <h2 class="window__header">Kontakt: </h2>
+                    <div class="window__content" style="text-align: center;">
                         <br>
-                        <p class="info" style="font-size: medium; text-align: center;">Serdecznie zapraszam do kontaktu osoby zainteresowane</p>
-                        <p class="info" style="font-size: medium; text-align: center;">współpracą!</p>
+                        Serdecznie zapraszam do kontaktu osoby zainteresowane współpracą!
                         <br>
-                        <p class="info" style="font-size: medium; text-align: center;"><b>Adres e-mail:</b> macpalus@gmail.com</p>
-                        <p class="info" style="font-size: medium; text-align: center;"><b>Telefon:</b> 601-079-073</p>
-                        <br/>
+                        <br>
+                        <b>Adres e-mail:</b> macpalus@gmail.com
+                        <br>
+                        <b>Telefon:</b> 601-079-073
+                        
                     </div>
                 </div>
             </div>

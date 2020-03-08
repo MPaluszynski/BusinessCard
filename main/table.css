@@ -1,0 +1,21 @@
+ol{
+    margin: 10px 0;
+    line-height: 1.25;
+}
+
+
+ol > li > ul {
+    padding-left: 5%;
+}
+
+h5{
+    margin: 0;
+    padding: 0;
+    padding-top: 2.5%;
+    line-height: 1.25;
+}
+
+.info{
+    font-size: small;
+    margin: 0;
+}
